@@ -1,0 +1,1 @@
+python /content/DiffuseIT/main.py -i /content/DiffuseIT/input_example/cat2.png -tg /content/DiffuseIT/input_example/bread.png --output_path /content/DiffuseIT/outputs/output_cat2bread --iterations_num 8 --clip_models "ViT-B/32" --diff_iter 100 --timestep_respacing 200 --skip_timesteps 80 --use_noise_aug_all --use_range_restart --use_colormatch 
