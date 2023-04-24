@@ -24,6 +24,8 @@ download the model into ```./checkpoints``` folder
 ### Image-guided Image translation
 
 Quck start with Colab Demo for Image-guided Image translation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nDAJ-rxftY-_1sSX48P-on26WBRlSIAw?usp=sharing)
+
+One iteration generate 0ne image.
 ```
 python main.py -i "input_example/cat.png"  --output_path "./outputs/output_cat2bread" 
 -tg "input_example/bread.png" --use_range_restart --diff_iter 100 --timestep_respacing 200 --skip_timesteps 80 
